@@ -14,21 +14,20 @@ o Features
 o Usage
 
 1. **Compile the Server**: Compile the server code using a C compiler such as GCC:
-
+```
 gcc server.c -o server
-
+```
 
 2. **Run the Server**: Execute the compiled server binary:
-
+```
 ./server
-
-
+```
 By default, Tinx listens on port 8080 and serves files from the specified directory.
 
 3. **Access Files**: Access files served by Tinx using a web browser or command-line tool like cURL:
-
+```
 curl http://localhost:8080/index.html
-
+```
 
 o Project Structure
 
