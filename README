@@ -2,11 +2,14 @@
 |Tinx 1.0|
 +--------+
 
-# Simple HTTP Server in C
+
+Simple HTTP Server in C
+
+
 
 This is a simple HTTP server implemented in C that serves static files to clients over HTTP.
 
--> Usage
+o Usage
 
 1. Compile the server code:
 
@@ -28,7 +31,7 @@ By default, the server listens on port 8080 and serves files from the `/home/xan
 curl http://localhost:8080/index.html
 
 
--> Project Structure
+o Project Structure
 
 - `server.c`: Contains the source code for the HTTP server.
 - `README.txt`: This file, providing instructions and information about the project.
@@ -38,11 +41,11 @@ curl http://localhost:8080/index.html
 - C compiler (e.g., GCC)
 - Linux environment (the code may require modifications to run on other platforms)
 
-## Troubleshooting
+o Troubleshooting
 
 - If the server fails to bind to the port, ensure that the port is not already in use by another application.
 - If the server fails to serve files, double-check the file paths and permissions.
 
-## License
+o License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
