@@ -1,7 +1,8 @@
-+--------+
+<!-- +--------+
 |Tinx 1.0|
-+--------+
++--------+ -->
 
+#Tinx
 
 Tinx is a simple HTTP server project implemented in C. It aims to provide a lightweight and easy-to-use solution for serving static files over the HTTP protocol.
 
