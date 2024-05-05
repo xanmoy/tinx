@@ -6,34 +6,34 @@
 
 This is a simple HTTP server implemented in C that serves static files to clients over HTTP.
 
-## Usage
+-> Usage
 
 1. Compile the server code:
 
-```
+
 gcc server.c -o server
-```
+
 
 2. Run the server:
 
-```
+
 ./server
-```
+
 
 By default, the server listens on port 8080 and serves files from the `/home/xanmoy/Workspace/tinx/` directory.
 
 3. Access files using a web browser or a tool like cURL:
 
-```
-curl http://localhost:8080/index.html
-```
 
-## Project Structure
+curl http://localhost:8080/index.html
+
+
+-> Project Structure
 
 - `server.c`: Contains the source code for the HTTP server.
 - `README.txt`: This file, providing instructions and information about the project.
 
-## Requirements
+-> Requirements
 
 - C compiler (e.g., GCC)
 - Linux environment (the code may require modifications to run on other platforms)
