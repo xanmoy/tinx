@@ -51,4 +51,4 @@ Contributions to Tinx are welcome! Feel free to submit bug reports, feature requ
 
 # License
 
-Tinx is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt) file for details.
+Tinx is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
